@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name') }}</title>
-    <link rel="stylesheet" href="{{ mix('dist/app.css') }}">
+    <link rel="stylesheet" href="{{ mix('dist/css/app.css') }}">
 </head>
 <body>
 <noscript>
@@ -20,6 +20,6 @@
 </script>
 
 {{-- Load the application scripts --}}
-<script src="{{ mix('dist/app.js') }}"></script>
+<script src="{{ mix('dist/js/main.js') }}"></script>
 </body>
 </html>
